@@ -37,7 +37,7 @@ section {
     margin-bottom: 100px;
 }
 
-.section-title{
+.section-title {
     color: rgba(13, 19, 33, 0.7);
     font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
@@ -129,7 +129,7 @@ main {
 }
 
 /* Poster Section */
-.why-web-development{
+.why-web-development {
     text-align: center;
 }
 
@@ -145,6 +145,7 @@ main {
     border-radius: 16px;
     background: rgb(230, 237, 249);
 }
+
 .poster-text {
     width: 50%;
     display: flex;
@@ -158,21 +159,59 @@ main {
 }
 
 /* My Inspiration */
-.my-inspiration .section-description{
+.my-inspiration .section-description {
     font-family: "Azeret Mono", monospace, sans-serif;
 }
 
-.inspiration{
+.inspiration {
     padding: 20px;
     border: 2px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
 
-.inspiration iframe{
+.inspiration iframe {
     width: 100%;
     height: 500px;
     border: none;
     border-radius: 16px;
+}
+
+/* My Current Target */
+
+.target {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
+.target-box {
+    padding: 20px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(0deg, rgb(184, 231, 250) 32.284%, rgb(230, 230, 250) 91.685%);
+    border-radius: 16px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.target-box img {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.target-btn {
+    color: rgb(13, 19, 33);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0%;
+    text-decoration-line: underline;
+    border: none;
+    background: none;
 }
 
 /* Footer Section */
