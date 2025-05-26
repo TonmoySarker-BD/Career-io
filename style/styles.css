@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-/* font-family: "Azeret Mono", monospace, sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 
+font-family: "Azeret Mono", monospace, sans-serif;
+font-family: "Poppins", sans-serif;
+*/
 
 * {
     margin: 0;
@@ -11,6 +14,57 @@ body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(-69.19deg, rgb(184, 231, 250) 32.284%, rgb(230, 230, 250) 91.685%);
 }
+
+/* Common Class */
+.btn {
+    color: rgb(13, 19, 33);
+    font-size: 1.25rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.75rem;
+    text-align: center;
+
+    padding: 8px 16px;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(90.00deg, rgb(255, 165, 0), rgb(255, 212, 71) 100%);
+    opacity: 0.8;
+
+}
+
+/* Header Section */
+header {
+    border-bottom: 1px solid rgb(198, 219, 255);
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-text {
+    color: #0D1321;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.logo-highlight {
+    color: #FFA500;
+}
+
+
 
 /* Footer Section */
 footer {
