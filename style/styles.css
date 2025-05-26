@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Azeret Mono", monospace, sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(-69.19deg, rgb(184, 231, 250) 32.284%, rgb(230, 230, 250) 91.685%);
+}
+
+/* Footer Section */
+footer {
+    width: 100%;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 10%;
+}
+
+footer h3 {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
